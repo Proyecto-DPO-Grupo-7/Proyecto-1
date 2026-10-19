@@ -1,0 +1,11 @@
+package clubseneca.usuarios;
+
+public class Entrenador extends Empleado {
+    public Entrenador(String login, String password, String codigoDescuento) {
+        super(login, password, codigoDescuento);
+    }
+
+    public boolean esEntrenador() {
+        return true;
+    }
+}
